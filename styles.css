@@ -1,0 +1,71 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+    background-color: #ffcdd2;
+}
+
+.container {
+    margin: auto;
+    width: 80%;
+    text-align: center;
+    margin-top: 25vh;
+    padding: 15px;
+    border-radius: 20px;
+    box-shadow: 15px 15px 20px rgba(0, 0, 0, 0.1), -15px -15px 20px #ffcdd2;
+    background-color: #ffcdd2;
+}
+
+button {
+    width: 60px;
+    height: 60px;
+    margin: 5px;
+    font-size: 2em;
+    color: rgba(0, 0, 0, 0.5);
+    border-style: none;
+    border-radius: 10px;
+    background-color: transparent;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+button:active {
+    box-shadow: inset 5px 5px 10px rgba(0, 0, 0, 0.1);
+    color: rgba(0, 0, 0, 0.2);
+
+
+}
+
+#counter {
+    font-size: 64px;
+    color: rgba(0, 0, 0, 0.5);
+    box-shadow: inset 5px 5px 10px rgba(0, 0, 0, 0.1);
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#buttons {
+    margin-top: 10px;
+}
+
+#message {
+    font-size: 32px;
+    margin-top: 20px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+@media (min-width: 700px) {
+    .container {
+        width: 25%;
+    }  
+}
